@@ -1,4 +1,4 @@
-# Hello, this is lovepreet. I'm interacting with DevOps basics.
+This is lovepreet. And, I'm interacting with DevOps basics.
 
 
 
