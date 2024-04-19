@@ -54,6 +54,14 @@ pipeline {
                     bat 'npm start -- -p 3000'
                 }
             }
+            post {
+                success {
+                    echo 'Deployment successful!'
+                }
+                failure {
+                    echo 'Deployment failed!'
+                }
+            }
         }
     }
 
