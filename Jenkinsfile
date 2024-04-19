@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs "NodeJS" // Assuming "NodeJS" is configured globally in Jenkins
+        nodejs "NodeJS" 
         git "Default"
     }
 
