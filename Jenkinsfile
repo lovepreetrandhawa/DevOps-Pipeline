@@ -52,15 +52,6 @@ pipeline {
             steps {
                 script {
                     bat 'npm start -- -p 3000'
-                    bat 'npm run build'
-                }
-            }
-            post {
-                success {
-                    echo 'Deployment successful!'
-                }
-                failure {
-                    echo 'Deployment failed!'
                 }
             }
         }
